@@ -1,0 +1,11 @@
+//write a function called race results that accepts an array, and returns an obj, with 1st, 2nd, and third
+//as the 1, 2, 3 of the array and rest containing the rest of the field
+
+
+
+const raceResults = ([first, second, third, ...rest]) => ({
+first, second, third, rest    
+})
+    
+
+    
