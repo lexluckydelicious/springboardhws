@@ -1,0 +1,47 @@
+consoleDOMManipulation.txt
+
+/* conosole log a message */
+
+console.log("LET'S GET READY TO PARTY WITH JQUERY")
+VM307:1 LET'S GET READY TO PARTY WITH JQUERY
+undefined
+
+/*give the all images in the article container a class of image-center */
+
+let $imageCenters = $("article").children("img");
+undefined
+$imageCenters.addClass("image-center");
+jQuery.fn.init [img.image-center, prevObject: jQuery.fn.init(1)]
+$imageCenters.hasClass
+ƒ ( selector ) {
+		var className, elem,
+			i = 0;
+
+		className = " " + selector + " ";
+		while ( ( elem = this[ i++ ] ) ) {
+			if ( elem.nodeType === 1 &&
+				( " " + stripAndCollapse( getClass( elem )…
+img.class
+
+/* remove the last paragraph */
+
+$("p:last").remove();
+
+/* make the title font size a random integer of pixels */
+let randInt = Math.floor(Math.random()*100+1)
+undefined
+randInt
+85
+$title.css("font-size", `${randInt}` + "px")
+jQuery.fn.init [h1#title.text-center]
+
+
+
+/* append an li to the ol, then empty container, then replace with a paragraph apologizing for the list */
+$("ol").append("<li>test item</li>")
+jQuery.fn.init [ol, prevObject: jQuery.fn.init(1)]
+
+$("aside").empty()
+jQuery.fn.init [aside.col-sm-4, prevObject: jQuery.fn.init(1)]
+$("aside").append("<p>I'm sorry that you had to deal with that</p>")
+jQuery.fn.init [aside.col-sm-4, prevObject: jQuery.fn.init(1)]
