@@ -1,0 +1,59 @@
+What is HTTP?
+
+HTTP stands for hypertext transfer protocol, and it is a method used to encode and transfer data between 
+clients and servers.
+
+What is URL?
+
+URL stands for Uniform Resource Locator, and is the address at which a unique resource can be found.
+
+What is DNS?
+
+DNS stands for Domain Name System, which functions like an address book for the internet. It is broken
+into four parts: DNS recursor, root nameserver, TLD nameserver, and authoritative nameserver.
+
+What is a query string?
+
+A query string is the part of the URL that gives value to parameters. 
+ (ex. http://www.thing.com/page.html?PARAMETER=[@blahb]) = "?" marks start
+
+What are two HTTP verbs and how are they different?
+
+GET is an HTTP verb that is a request intended to get data from a server and not modify the server's state.
+POST is an HTTP verb that sends data to the server for processing and may modify the server's state.
+
+What is an HTTP request?
+
+An HTTP request is made by a client to a named host located on a server. The request is aiming to 
+access the resource, using a URL to locate it.
+
+What is an HTTP response?
+
+An HTTP response is made by a server to a client, to provide the data, inform the task was completed, or 
+inform of error.
+
+What is a header?
+
+A header allows clients and servers pass additional information between one another in requests and responses.
+Common headers include info about the data, caching methods, authentication methods.
+
+What happens when 
+
+http://site.com/some/page.html?x=1
+
+is broken down? 
+
+gets broken down into:
+protocol:http
+hostname: site.com (broken down to IP address)
+resource: some/page.html
+query: x=1
+port: 80, default
+
+a request is made from the client to the server, and the resource is returned or an error is
+
+
+
+
+
+
